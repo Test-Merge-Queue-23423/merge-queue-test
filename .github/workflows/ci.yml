@@ -1,0 +1,9 @@
+name: ci
+on:
+  pull_request:
+  merge_group:
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "placeholder CI"
